@@ -8,3 +8,7 @@ This model can classify your image based on the url you provide for data_path va
 This ImageDataGenerator tools will take your given number of images to generate millions of images to create training set and later train the model.  
 
 Once model is trained, you can test your model by using a unseen image. Use your won url for test_path variable to get your test image. 
+
+## use your won data_path and test_path. My paths are as below. 
+data_path = r'C:\Users\aman0\Desktop\ME\My_project\Data Sink\GIW'
+test_path = r'C:\Users\aman0\Desktop\ME\Tutorial\Data Sink\TransferF_course\validation_data\test.jpg'
