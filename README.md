@@ -4,6 +4,7 @@ Transfer learning is a method where you can classify image by using KERAS/other 
 
 This model can classify your image based on the url you provide for data_path variable. Inside your data_path folder you create folders as many as class you want to predict and put at least 10 images of each class. Model will read all the folders name as class name. Model will augment data using KERAS ImageDataGenerator tools from keras.preprocessing library augment your data.  
 
+## at this point data-generator is set up for 2 classes. Tune your code as your number of class
 This ImageDataGenerator tools will take your given number of images to generate millions of images to create training set and later train the model.  
 
 Once model is trained, you can test your model by using a unseen image. Use your won url for test_path variable to get your test image. 
