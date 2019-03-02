@@ -1,4 +1,4 @@
-# Object-recognition-using-transfer-learning: Please read before you use the model 
+# Object-recognition-using-transfer-learning: Please read before you use the model. Change ur data_path and test_path and tune data_generator as your number of classes.
 
 Transfer learning is a method where you can classify image by using KERAS/other pre-trained model. All you need to do is, choose your model from KERAS/OTHER pre-trained models based on your application and load them into your kernel and tune last few layers as your application requires and train only those few layer/s then you are good to go 
 
