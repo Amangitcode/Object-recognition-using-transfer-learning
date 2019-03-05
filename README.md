@@ -2,9 +2,9 @@
 Transfer learning is the reuse of a pre-trained model on a new problem. It is currently very popular in the field of Deep Learning because it enables you to train Deep Neural Networks with comparatively little data.
 
 # Project Architecture
--Set data_path: Url for all class folders. Class folder name is the name of that class
+- Set data_path: Url for all class folders. Class folder name is the name of that class
 
--Read image and labels: Read class names and number of classes. Read all images and put them in a nd-array. In image_read function all images have been normalized between -1 and 1, nulls are removed. All images have been rolled into 1 row. Nd-array shape will be [1, #images, imageWidth, imageLength, channels] 
+- Read image and labels: Read class names and number of classes. Read all images and put them in a nd-array. In image_read function all images have been normalized between -1 and 1, nulls are removed. All images have been rolled into 1 row. Nd-array shape will be [1, #images, imageWidth, imageLength, channels] 
 
 -Data augmentation: Data augmentation was done using keras preprocessing tools. Random rotation, random zoom and random width shift operations were performed to augment data. After running augmentation operation all were read and appended in an nd-array. 
 
