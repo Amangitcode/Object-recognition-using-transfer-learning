@@ -1,7 +1,7 @@
 # Object/Face recognition using transfer learning: 
 Transfer learning is the reuse of a pre-trained model on a new problem. It is currently very popular in the field of Deep Learning because it enables you to train Deep Neural Networks with comparatively little data.
 
-# Project Architecture
+## Project Architecture
 - Set data_path: Url for all class folders. Class folder name is the name of that class
 
 - Read image and labels: Read class names and number of classes. Read all images and put them in a nd-array. In image_read function all images have been normalized between -1 and 1, nulls are removed. All images have been rolled into 1 row. Nd-array shape will be [1, #images, imageWidth, imageLength, channels] 
@@ -17,6 +17,6 @@ Transfer learning is the reuse of a pre-trained model on a new problem. It is cu
 - Test and result: For testing this model, Test image was read and preprocessed same way as train images were read. Model prediction was performed and displayed. 
 
 
-## use your won data_path and test_path. My paths are as below. 
+## Use your won data_path and test_path. My paths are as below. 
 data_path = r'C:\Users\aman0\Desktop\ME\My_project\Data Sink\GIW'
 test_path = r'C:\Users\aman0\Desktop\ME\Tutorial\Data Sink\TransferF_course\validation_data\test.jpg'
